@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+/* ================================================================== ACCUEIL ================================================================== */
+/* ================================================================== HEADER */
+header {
+  height: 100vh;
+}
+
+header .accueil-photo {
+  height: 100%;
+}
+
+header .accueil-photo .accueil-content {
+  position: relative;
+  width: 30%;
+  top: 40%;
+  left: 15%;
+}
+
+header .accueil-photo .accueil-content .separation {
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 5px 2px black;
+          box-shadow: 1px 1px 5px 2px black;
+  border-radius: 12px;
+  width: 50%;
+}
+
+header .accueil-photo .accueil-content h1 {
+  font-size: 600%;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px black;
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=style.css.map */
