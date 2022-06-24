@@ -9,7 +9,6 @@
 /* ================================================================== HEADER */
 
 header {
-
   .accueil-photo {
     height: 90vh;
 
@@ -26,7 +25,7 @@ header {
         width: 50%;
       }
 
-      h1{
+      h1 {
         color: white;
 
         font-weight: bold;
@@ -35,7 +34,7 @@ header {
         margin-bottom: 30px;
       }
 
-      .btn-white{
+      .btn-white {
         font-size: 60%;
       }
     }
@@ -44,105 +43,225 @@ header {
 
 /* ================================================================== GALERIES */
 
-.galeries{
-    padding: 25px 0;
+.galeries {
+  padding: 25px 0;
 
-    .galeries-titre{
-        h2{
-            margin: 25px 0;
-        }
+  .galeries-titre {
+    h2 {
+      margin: 25px 0;
+    }
+  }
+
+  .galeries-content {
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 12px;
+    width: 80%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
     }
 
-    .galeries-content{
-        border: 1px solid black;
-        margin: 0 auto;
-        text-align: center;
-        border-radius: 12px;
-        width: 80%;
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-
-        &:hover{
-            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-        }
-
-        img{
-            width: 60%;
-            margin: 15px 5px 15px 15px;
-        }
+    img {
+      width: 60%;
+      margin: 15px 5px 15px 15px;
     }
+  }
 }
 
 /* ================================================================== LAYOUT */
 
-.layout{
-    padding: 20px 10px;
+.layout {
+  padding: 20px 10px;
 
-    .layout-content{
-        margin: 10px;
+  .layout-content {
+    margin: 10px;
 
-        img{
-            width: 100%;
-            height: 100%;
-        }
-
+    img {
+      width: 100%;
+      height: 100%;
     }
+  }
 }
 
+.footer-content {
+  height: 40px;
 
-.footer-content{
-    height: 40px;
-
-    h6{
-        text-align: center;
-
-    }
+  h6 {
+    text-align: center;
+  }
 }
 
 /* ================================================================== LES DEBUTS ================================================================== */
 
 /* ================================================================== NAVBAR */
 
-nav{
-    height: 60px;
+nav {
+  height: 60px;
 }
 
 /* ================================================================== DEBUTS */
 
-.content{
+.content {
+  margin: 25px 0;
+
+  .content-texte {
+    padding: 0 20px;
+
+    p {
+      margin-bottom: 20px;
+      line-height: 20px;
+    }
+  }
+
+  .content-photo {
     margin: 25px 0;
 
-    .content-texte{
-        padding: 0 20px;
-
-        p{
-            margin-bottom: 20px;
-            line-height: 20px;
-        }
+    img {
+      margin: 0 auto;
     }
-
-    .content-photo{
-        margin: 25px 0;
-
-        img{
-            margin: 0 auto;
-        }
-    }
+  }
 }
 
 /* ================================================================== LES TYPES ================================================================== */
 
 /* ================================================================== TYPES */
 
-.types-texte{
+.types-texte {
+  width: 80%;
+  margin: 0 auto;
+
+  ul {
+    margin: 15px 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+}
+
+/* ================================================================== RESPONSIVE ================================================================== */
+
+@media (min-width: 1024px) {
+  header {
+    .accueil-photo {
+      height: 90vh;
+
+      .accueil-content {
+        top: 40%;
+        left: 20%;
+
+        .separation {
+          width: 20%;
+        }
+
+        h1 {
+          font-size: 700%;
+        }
+
+        .btn-white {
+          font-size: 100%;
+        }
+      }
+    }
+  }
+
+  /* ================================================================== GALERIES */
+
+  .galeries {
+
+    .galeries-titre {
+      h2 {
+        font-size: 200%;
+        margin: 80px 0;
+      }
+    }
+
+    .galeries-content {
+      gap: 200px;
+
+      h3{
+        font-size: 200%;
+      }
+
+      img {
+        width: 60%;
+        margin: 15px 5px 15px 15px;
+      }
+    }
+  }
+
+  /* ================================================================== LAYOUT */
+
+  .layout {
+    padding: 80px 80px;
+
+    .layout-content {
+      margin: 20px;
+    }
+  }
+
+  .footer-content {
+    height: 80px;
+
+    h6 {
+      text-align: center;
+      font-size: 120%;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* ================================================================== LES DEBUTS ================================================================== */
+
+  /* ================================================================== NAVBAR */
+
+  nav {
+    height: 100px;
+
+    a{
+        font-size: 150%;
+    }
+  }
+
+  /* ================================================================== DEBUTS */
+
+  .content {
+    margin: 25px 0;
+
+    .content-texte {
+      padding: 0 20px;
+
+      p {
+        margin-bottom: 20px;
+        line-height: 20px;
+      }
+    }
+
+    .content-photo {
+      margin: 25px 0;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  /* ================================================================== LES TYPES ================================================================== */
+
+  /* ================================================================== TYPES */
+
+  .types-texte {
     width: 80%;
     margin: 0 auto;
 
-    ul{
-        margin: 15px 0;
+    ul {
+      margin: 15px 0;
     }
 
-    li{
-        margin: 10px 0;
+    li {
+      margin: 10px 0;
     }
+  }
 }
-

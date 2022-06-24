@@ -130,4 +130,91 @@ nav {
 .types-texte li {
   margin: 10px 0;
 }
+
+/* ================================================================== RESPONSIVE ================================================================== */
+@media (min-width: 1024px) {
+  header .accueil-photo {
+    height: 90vh;
+  }
+  header .accueil-photo .accueil-content {
+    top: 40%;
+    left: 20%;
+  }
+  header .accueil-photo .accueil-content .separation {
+    width: 20%;
+  }
+  header .accueil-photo .accueil-content h1 {
+    font-size: 700%;
+  }
+  header .accueil-photo .accueil-content .btn-white {
+    font-size: 100%;
+  }
+  /* ================================================================== GALERIES */
+  .galeries .galeries-titre h2 {
+    font-size: 200%;
+    margin: 80px 0;
+  }
+  .galeries .galeries-content {
+    gap: 200px;
+  }
+  .galeries .galeries-content h3 {
+    font-size: 200%;
+  }
+  .galeries .galeries-content img {
+    width: 60%;
+    margin: 15px 5px 15px 15px;
+  }
+  /* ================================================================== LAYOUT */
+  .layout {
+    padding: 80px 80px;
+  }
+  .layout .layout-content {
+    margin: 20px;
+  }
+  .footer-content {
+    height: 80px;
+  }
+  .footer-content h6 {
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 10px;
+  }
+  /* ================================================================== LES DEBUTS ================================================================== */
+  /* ================================================================== NAVBAR */
+  nav {
+    height: 100px;
+  }
+  nav a {
+    font-size: 150%;
+  }
+  /* ================================================================== DEBUTS */
+  .content {
+    margin: 25px 0;
+  }
+  .content .content-texte {
+    padding: 0 20px;
+  }
+  .content .content-texte p {
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .content .content-photo {
+    margin: 25px 0;
+  }
+  .content .content-photo img {
+    margin: 0 auto;
+  }
+  /* ================================================================== LES TYPES ================================================================== */
+  /* ================================================================== TYPES */
+  .types-texte {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .types-texte ul {
+    margin: 15px 0;
+  }
+  .types-texte li {
+    margin: 10px 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
