@@ -1,2 +1,2 @@
-# Projet tailwind
+# Projet Tailwind
  Entrainemt sur le Framework CSS Tailwind
